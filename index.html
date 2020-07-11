@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" media="all" href="hello.css" id="theme_css" />
+
+</head>
+<body>
+    <div id="bg">
+            <div class="time">
+                <h1 id="hour"> 0</h1>
+                <h1 id="min">0</h1>
+                <h1 id="second">0</h1>
+                <h1 id="ms"> 0</h1>
+            </div>
+        <div class="number">
+            <button id="start" onclick="start()"> START </button>
+            <button id="pause" onclick="pause(); loadcssfile('hello.css')"> Pause</button>
+            <button id="Reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <!-- javascript -->
+          <script src="app.js"></script>
+</body>
+</html>
